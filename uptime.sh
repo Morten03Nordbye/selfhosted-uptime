@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Websites to monitor (add or remove URLs as needed)
-websites=("https://hub.home.bigd.no/" "https://example.com")
+websites=("https://hub.home.bigd.no/" "https://example.com" "https://googl1e.com")
 
 # Get the directory of the script
 script_directory=$(dirname "$0")
@@ -43,6 +43,7 @@ handle_interrupt() {
 trap handle_interrupt SIGINT
 
 # Start monitoring for each website
+pids=()
 for website in "${websites[@]}"; do
   (
     # Replace forward slashes ('/') in website URL with underscores ('_') for filename
@@ -79,7 +80,18 @@ for website in "${websites[@]}"; do
       sleep 2  # Delay between checks in seconds
     done
   ) &
+  pids+=($!)
 done
 
-# Wait for all background processes to finish (they won't, but this keeps the script alive until you terminate it)
-wait
+# Function to handle termination
+handle_termination() {
+  echo -e "\nScript terminated."
+  kill "${pids[@]}"  # Terminate all background processes
+  exit 0
+}
+
+# Register trap to capture SIGTERM and execute the handle_termination function
+trap handle_termination SIGTERM
+
+# Wait for the background processes to finish
+wait "${pids[@]}"

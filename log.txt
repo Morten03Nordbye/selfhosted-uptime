@@ -1,6 +1,8 @@
-to.. 06. juli 14:26:45 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
-to.. 06. juli 14:26:46 CEST 2023 - Website https://example.com is up - Uptime: 100%
-to.. 06. juli 14:26:48 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
-to.. 06. juli 14:26:48 CEST 2023 - Website https://example.com is up - Uptime: 100%
-to.. 06. juli 14:26:50 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
-to.. 06. juli 14:26:51 CEST 2023 - Website https://example.com is up - Uptime: 100%
+to.. 06. juli 14:49:52 CEST 2023 - Website https://googl1e.com is down - Uptime: 0%
+to.. 06. juli 14:49:52 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
+to.. 06. juli 14:49:53 CEST 2023 - Website https://example.com is up - Uptime: 100%
+to.. 06. juli 14:49:54 CEST 2023 - Website https://googl1e.com is down - Uptime: 0%
+to.. 06. juli 14:49:55 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
+to.. 06. juli 14:49:55 CEST 2023 - Website https://example.com is up - Uptime: 100%
+to.. 06. juli 14:49:56 CEST 2023 - Website https://googl1e.com is down - Uptime: 0%
+to.. 06. juli 14:49:57 CEST 2023 - Website https://hub.home.bigd.no/ is up - Uptime: 100%
