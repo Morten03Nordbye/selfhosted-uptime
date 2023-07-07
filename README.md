@@ -13,7 +13,7 @@ This script monitors the status of multiple websites by periodically checking th
 1. Clone the repository and navigate to the script's directory:
 
    ```bash
-   git clone https://github.com/your-username/website-monitoring-script.git
+   git@github.com:Morten03Nordbye/selfhosted-uptime.git
    cd website-monitoring-script
    ```
 
