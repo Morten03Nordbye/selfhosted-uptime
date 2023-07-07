@@ -14,7 +14,7 @@ This script monitors the status of multiple websites by periodically checking th
 
    ```bash
    git clone git@github.com:Morten03Nordbye/selfhosted-uptime.git
-   cd website-monitoring-script
+   cd selfhosted-uptime
    ```
 
 2. Edit the script and add the URLs of the websites you want to monitor. Open the `monitor.sh` file in a text editor and modify the `websites` array:
