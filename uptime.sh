@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Websites to monitor (add or remove URLs as needed)
-websites=("https://hub.home.bigd.no/" "https://example.com" "https://googl1e.com")
+websites=("https://example.com" "https://googl1e.com")
 
 # Get the directory of the script
 script_directory=$(dirname "$0")
