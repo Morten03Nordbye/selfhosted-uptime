@@ -66,3 +66,8 @@ The script provides a few configuration options that you can adjust according to
 - Remember to monitor the script's resource usage and adjust the configuration as needed to ensure optimal performance.
 
 Feel free to modify the instructions and information in the README file according to your specific requirements and preferences.
+
+Contributing
+------------
+
+Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes. For more insights into my other projects and professional background, feel free to visit my portfolio at [nordbye.it](https://nordbye.it/).
